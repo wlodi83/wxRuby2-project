@@ -1,7 +1,7 @@
 require "rubygems"
 require 'dbi'
 # make an ODBC connection
-conn = DBI.connect('DBI:ODBC:exa_test','lwlodarczyk','lwl0d4rczyk')
+conn = DBI.connect('DBI:ODBC:exa_test','','')
 
 # returns a list of the table names from your database
 conn.tables
